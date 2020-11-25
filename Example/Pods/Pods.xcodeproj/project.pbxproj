@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		1519E4E02174E5019518040335DB9231 /* EsperKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33EE6691C16135818F821DCA74EECE /* EsperKit-dummy.m */; };
 		1D0AA0F36C352CC83A795CCA4FB6EA60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F94F210200949474A882E9C0977087F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */; };
 		213E796309A5BAC0DE61B046328B4A70 /* Pods-EsperKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5C34C9469FB0F3E07D03E7D79058F /* Pods-EsperKit_Tests-dummy.m */; };
+		275AD373256EF2F30097F73C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275AD372256EF2F30097F73C /* Test.swift */; };
 		3C73A80092E9C538D0E12A334141E1A8 /* Pods-EsperKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA666DD72863E144751C5A2262D9D1EF /* Pods-EsperKit_Example-dummy.m */; };
 		4580253F465FA7ECAC922DD1BE8726A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4C5E8901D94E19223ED96D4D4E7BD6A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,30 +41,30 @@
 		0C7717D0151D9782E8854B3A0CDF63DB /* Pods-EsperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2046A885831C78D8AB861B4F73811F0F /* EsperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EsperKit.modulemap; sourceTree = "<group>"; };
 		22F996834082A0DEE5ECCC54381F36B3 /* Pods-EsperKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		275AD372256EF2F30097F73C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		2B88A35F2C5A67A43C09540771E2C67C /* Pods-EsperKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsperKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		2CEFE42CE68470FEDF608697BCB6D667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2CEFE42CE68470FEDF608697BCB6D667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		34A64E6850FE2817CC3C08610313E9B4 /* Pods-EsperKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsperKit_Example.modulemap"; sourceTree = "<group>"; };
 		4E85E02EBC1245E010E0247768C99A01 /* Pods-EsperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55EB1004D93AFD53706CF54A9FA1D49A /* EsperKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EsperKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55EB1004D93AFD53706CF54A9FA1D49A /* EsperKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EsperKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AA2CFB72720B9A5A7A034A95384D24A /* Pods-EsperKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F0C33F409E17BE5ECA9D22AFB2F3DF7 /* EsperKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsperKit-umbrella.h"; sourceTree = "<group>"; };
-		6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EsperKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7259E49E275194CAEE37740CDC9D50FF /* EsperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EsperKit.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7ED1C1B7248658C2CC77EE9EF7D6699C /* Pods-EsperKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsperKit_Tests.modulemap"; sourceTree = "<group>"; };
 		803046658F4DB15DD0859023036A321B /* Pods-EsperKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsperKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8098FC0CDDA035773C34053C4741DFA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8098FC0CDDA035773C34053C4741DFA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8AA4D8BD65FAD8E82DFBB91B3EF5228F /* Pods-EsperKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D3EE0808493880D02C5BB9DDCD81A5E /* EsperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsperKit-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DACB1DF0A68094E35CB407F489231E2 /* Pods-EsperKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		9EC5C34C9469FB0F3E07D03E7D79058F /* Pods-EsperKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsperKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		A5E5EB8E425D8FBC117DBDA5AB5D7064 /* EsperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EsperKit.framework; path = EsperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E5EB8E425D8FBC117DBDA5AB5D7064 /* EsperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EsperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA666DD72863E144751C5A2262D9D1EF /* Pods-EsperKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsperKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B936904E1B3C49B4CB3AAB0363F874AC /* Pods_EsperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsperKit_Tests.framework; path = "Pods-EsperKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B936904E1B3C49B4CB3AAB0363F874AC /* Pods_EsperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsperKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C612DE684E02A70A3D7AE587FFC592CC /* Pods-EsperKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7702E7F737EA8AC8C7F5578D148D30 /* EsperKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EsperKit-Info.plist"; sourceTree = "<group>"; };
-		D26C4933388B0BCB02B31387D96D12C2 /* Pods_EsperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsperKit_Example.framework; path = "Pods-EsperKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26C4933388B0BCB02B31387D96D12C2 /* Pods_EsperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsperKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D626584B3C9D1E19471712111C486B6C /* Pods-EsperKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsperKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DA0B3E07A96A078732B48E3C68D38BFC /* Pods-EsperKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Example-Info.plist"; sourceTree = "<group>"; };
 		DA33EE6691C16135818F821DCA74EECE /* EsperKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EsperKit-dummy.m"; sourceTree = "<group>"; };
@@ -139,6 +139,14 @@
 			path = "Target Support Files/Pods-EsperKit_Tests";
 			sourceTree = "<group>";
 		};
+		275AD36E256EF2E50097F73C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				275AD372256EF2F30097F73C /* Test.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +178,7 @@
 		987344CCC27B682ABE377DD68676FE26 /* EsperKit */ = {
 			isa = PBXGroup;
 			children = (
-				6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */,
+				275AD36E256EF2E50097F73C /* Source */,
 				7D23E08A6A282F2EB88B392E3C77631A /* Pod */,
 				041E4E05D4CCD9570678B181A9BB47A6 /* Support Files */,
 			);
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9410BE709B91E50818B7E3B78FA4556A = {
+						LastSwiftMigration = 1200;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1519E4E02174E5019518040335DB9231 /* EsperKit-dummy.m in Sources */,
-				1F94F210200949474A882E9C0977087F /* ReplaceMe.swift in Sources */,
+				275AD373256EF2F30097F73C /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +434,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example.modulemap";
@@ -453,7 +466,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example.modulemap";
@@ -486,7 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests.modulemap";
@@ -553,13 +566,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -618,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -635,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0215F77AA1563BADBD635559C2394E5F /* EsperKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -646,7 +659,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EsperKit/EsperKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EsperKit/EsperKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EsperKit/EsperKit.modulemap";
 				PRODUCT_MODULE_NAME = EsperKit;
@@ -654,7 +667,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -676,7 +690,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests.modulemap";
@@ -698,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7259E49E275194CAEE37740CDC9D50FF /* EsperKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,7 +724,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EsperKit/EsperKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EsperKit/EsperKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EsperKit/EsperKit.modulemap";
 				PRODUCT_MODULE_NAME = EsperKit;
@@ -717,7 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
