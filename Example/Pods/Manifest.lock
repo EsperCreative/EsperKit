@@ -1,0 +1,16 @@
+PODS:
+  - EsperKit (0.1.0)
+
+DEPENDENCIES:
+  - EsperKit (from `../`)
+
+EXTERNAL SOURCES:
+  EsperKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EsperKit: 80e540a2805cb659fac53c43dd58f80173ff6fe7
+
+PODFILE CHECKSUM: 8c05f932e8f933517adf9c2cb93beb62b399e394
+
+COCOAPODS: 1.10.0

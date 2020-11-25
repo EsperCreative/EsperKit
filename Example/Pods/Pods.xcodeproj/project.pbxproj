@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1519E4E02174E5019518040335DB9231 /* EsperKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33EE6691C16135818F821DCA74EECE /* EsperKit-dummy.m */; };
+		1D0AA0F36C352CC83A795CCA4FB6EA60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1F94F210200949474A882E9C0977087F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */; };
+		213E796309A5BAC0DE61B046328B4A70 /* Pods-EsperKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5C34C9469FB0F3E07D03E7D79058F /* Pods-EsperKit_Tests-dummy.m */; };
+		3C73A80092E9C538D0E12A334141E1A8 /* Pods-EsperKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA666DD72863E144751C5A2262D9D1EF /* Pods-EsperKit_Example-dummy.m */; };
+		4580253F465FA7ECAC922DD1BE8726A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C5E8901D94E19223ED96D4D4E7BD6A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F9B4E66BFC6AAD89A6DA7D372A9FFCF /* EsperKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0C33F409E17BE5ECA9D22AFB2F3DF7 /* EsperKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B1E8F3F018A29CAD9350F9F775209B /* Pods-EsperKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D626584B3C9D1E19471712111C486B6C /* Pods-EsperKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A681D483150BB0A33D7BABF7BE5E65E4 /* Pods-EsperKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B88A35F2C5A67A43C09540771E2C67C /* Pods-EsperKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C2736E07C40616FCF48634B865766E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8387C6CC73C0F9D7F5F2D37D921C1B5;
+			remoteInfo = "Pods-EsperKit_Example";
+		};
+		A0EE9D676F27E7AF4AA9E9C045EFE00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9410BE709B91E50818B7E3B78FA4556A;
+			remoteInfo = EsperKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0215F77AA1563BADBD635559C2394E5F /* EsperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EsperKit.debug.xcconfig; sourceTree = "<group>"; };
+		0C7717D0151D9782E8854B3A0CDF63DB /* Pods-EsperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2046A885831C78D8AB861B4F73811F0F /* EsperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EsperKit.modulemap; sourceTree = "<group>"; };
+		22F996834082A0DEE5ECCC54381F36B3 /* Pods-EsperKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B88A35F2C5A67A43C09540771E2C67C /* Pods-EsperKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsperKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		2CEFE42CE68470FEDF608697BCB6D667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34A64E6850FE2817CC3C08610313E9B4 /* Pods-EsperKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsperKit_Example.modulemap"; sourceTree = "<group>"; };
+		4E85E02EBC1245E010E0247768C99A01 /* Pods-EsperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		55EB1004D93AFD53706CF54A9FA1D49A /* EsperKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EsperKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AA2CFB72720B9A5A7A034A95384D24A /* Pods-EsperKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F0C33F409E17BE5ECA9D22AFB2F3DF7 /* EsperKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsperKit-umbrella.h"; sourceTree = "<group>"; };
+		6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EsperKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7259E49E275194CAEE37740CDC9D50FF /* EsperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EsperKit.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ED1C1B7248658C2CC77EE9EF7D6699C /* Pods-EsperKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsperKit_Tests.modulemap"; sourceTree = "<group>"; };
+		803046658F4DB15DD0859023036A321B /* Pods-EsperKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsperKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8098FC0CDDA035773C34053C4741DFA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8AA4D8BD65FAD8E82DFBB91B3EF5228F /* Pods-EsperKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D3EE0808493880D02C5BB9DDCD81A5E /* EsperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsperKit-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DACB1DF0A68094E35CB407F489231E2 /* Pods-EsperKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		9EC5C34C9469FB0F3E07D03E7D79058F /* Pods-EsperKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsperKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5E5EB8E425D8FBC117DBDA5AB5D7064 /* EsperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EsperKit.framework; path = EsperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA666DD72863E144751C5A2262D9D1EF /* Pods-EsperKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsperKit_Example-dummy.m"; sourceTree = "<group>"; };
+		B936904E1B3C49B4CB3AAB0363F874AC /* Pods_EsperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsperKit_Tests.framework; path = "Pods-EsperKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C612DE684E02A70A3D7AE587FFC592CC /* Pods-EsperKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsperKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7702E7F737EA8AC8C7F5578D148D30 /* EsperKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EsperKit-Info.plist"; sourceTree = "<group>"; };
+		D26C4933388B0BCB02B31387D96D12C2 /* Pods_EsperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsperKit_Example.framework; path = "Pods-EsperKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D626584B3C9D1E19471712111C486B6C /* Pods-EsperKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsperKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DA0B3E07A96A078732B48E3C68D38BFC /* Pods-EsperKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsperKit_Example-Info.plist"; sourceTree = "<group>"; };
+		DA33EE6691C16135818F821DCA74EECE /* EsperKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EsperKit-dummy.m"; sourceTree = "<group>"; };
+		F64463C6A55A87D4298D904F8EFE3235 /* Pods-EsperKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EsperKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F881ED4AB2C9BCC2901CBA0791C8289E /* Pods-EsperKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsperKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A009EE1DE256614E6E9F8E26020633D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5E8901D94E19223ED96D4D4E7BD6A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7B105FF0A41E99687AAB9C67B1B97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0AA0F36C352CC83A795CCA4FB6EA60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29238B8C2DE87474FDD8380C5A95450D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4580253F465FA7ECAC922DD1BE8726A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0096DE58D1F3BC87A440019432E826DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				987344CCC27B682ABE377DD68676FE26 /* EsperKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		041E4E05D4CCD9570678B181A9BB47A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2046A885831C78D8AB861B4F73811F0F /* EsperKit.modulemap */,
+				DA33EE6691C16135818F821DCA74EECE /* EsperKit-dummy.m */,
+				CC7702E7F737EA8AC8C7F5578D148D30 /* EsperKit-Info.plist */,
+				8D3EE0808493880D02C5BB9DDCD81A5E /* EsperKit-prefix.pch */,
+				5F0C33F409E17BE5ECA9D22AFB2F3DF7 /* EsperKit-umbrella.h */,
+				0215F77AA1563BADBD635559C2394E5F /* EsperKit.debug.xcconfig */,
+				7259E49E275194CAEE37740CDC9D50FF /* EsperKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EsperKit";
+			sourceTree = "<group>";
+		};
+		176FB249F9513D729AF4B7150B03EEDC /* Pods-EsperKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1C1B7248658C2CC77EE9EF7D6699C /* Pods-EsperKit_Tests.modulemap */,
+				803046658F4DB15DD0859023036A321B /* Pods-EsperKit_Tests-acknowledgements.markdown */,
+				5AA2CFB72720B9A5A7A034A95384D24A /* Pods-EsperKit_Tests-acknowledgements.plist */,
+				9EC5C34C9469FB0F3E07D03E7D79058F /* Pods-EsperKit_Tests-dummy.m */,
+				9DACB1DF0A68094E35CB407F489231E2 /* Pods-EsperKit_Tests-Info.plist */,
+				D626584B3C9D1E19471712111C486B6C /* Pods-EsperKit_Tests-umbrella.h */,
+				C612DE684E02A70A3D7AE587FFC592CC /* Pods-EsperKit_Tests.debug.xcconfig */,
+				0C7717D0151D9782E8854B3A0CDF63DB /* Pods-EsperKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-EsperKit_Tests";
+			path = "Target Support Files/Pods-EsperKit_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D23E08A6A282F2EB88B392E3C77631A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55EB1004D93AFD53706CF54A9FA1D49A /* EsperKit.podspec */,
+				2CEFE42CE68470FEDF608697BCB6D667 /* LICENSE */,
+				8098FC0CDDA035773C34053C4741DFA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		94A5341B545C113D7CE66392D3B90894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E5EB8E425D8FBC117DBDA5AB5D7064 /* EsperKit.framework */,
+				D26C4933388B0BCB02B31387D96D12C2 /* Pods_EsperKit_Example.framework */,
+				B936904E1B3C49B4CB3AAB0363F874AC /* Pods_EsperKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987344CCC27B682ABE377DD68676FE26 /* EsperKit */ = {
+			isa = PBXGroup;
+			children = (
+				6AAF4F133C4F04A757D48D77F7EE912B /* ReplaceMe.swift */,
+				7D23E08A6A282F2EB88B392E3C77631A /* Pod */,
+				041E4E05D4CCD9570678B181A9BB47A6 /* Support Files */,
+			);
+			name = EsperKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F98A36E05E55C95CB932D4D8C17436B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C933FD85E034F66D2E1487770C37E773 /* Pods-EsperKit_Example */,
+				176FB249F9513D729AF4B7150B03EEDC /* Pods-EsperKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C933FD85E034F66D2E1487770C37E773 /* Pods-EsperKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				34A64E6850FE2817CC3C08610313E9B4 /* Pods-EsperKit_Example.modulemap */,
+				F881ED4AB2C9BCC2901CBA0791C8289E /* Pods-EsperKit_Example-acknowledgements.markdown */,
+				8AA4D8BD65FAD8E82DFBB91B3EF5228F /* Pods-EsperKit_Example-acknowledgements.plist */,
+				AA666DD72863E144751C5A2262D9D1EF /* Pods-EsperKit_Example-dummy.m */,
+				F64463C6A55A87D4298D904F8EFE3235 /* Pods-EsperKit_Example-frameworks.sh */,
+				DA0B3E07A96A078732B48E3C68D38BFC /* Pods-EsperKit_Example-Info.plist */,
+				2B88A35F2C5A67A43C09540771E2C67C /* Pods-EsperKit_Example-umbrella.h */,
+				4E85E02EBC1245E010E0247768C99A01 /* Pods-EsperKit_Example.debug.xcconfig */,
+				22F996834082A0DEE5ECCC54381F36B3 /* Pods-EsperKit_Example.release.xcconfig */,
+			);
+			name = "Pods-EsperKit_Example";
+			path = "Target Support Files/Pods-EsperKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0096DE58D1F3BC87A440019432E826DC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94A5341B545C113D7CE66392D3B90894 /* Products */,
+				9F98A36E05E55C95CB932D4D8C17436B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83DDC1351C8505200F05021ECD1BB400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A681D483150BB0A33D7BABF7BE5E65E4 /* Pods-EsperKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805AAF7F71A671CF729A857AB385AD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B1E8F3F018A29CAD9350F9F775209B /* Pods-EsperKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB47BAAB2B6BBC5A1689EFB2FF64AA30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9B4E66BFC6AAD89A6DA7D372A9FFCF /* EsperKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9410BE709B91E50818B7E3B78FA4556A /* EsperKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC0DA6F4055250E012524D959246A6 /* Build configuration list for PBXNativeTarget "EsperKit" */;
+			buildPhases = (
+				BB47BAAB2B6BBC5A1689EFB2FF64AA30 /* Headers */,
+				8B3E74922FBD72993E021C3B2D3A4EBA /* Sources */,
+				29238B8C2DE87474FDD8380C5A95450D /* Frameworks */,
+				851938EDBCB700503BE8F6FFEA2EC468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsperKit;
+			productName = EsperKit;
+			productReference = A5E5EB8E425D8FBC117DBDA5AB5D7064 /* EsperKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8387C6CC73C0F9D7F5F2D37D921C1B5 /* Pods-EsperKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E48112A1BBCB0A2FA00A71C4568413 /* Build configuration list for PBXNativeTarget "Pods-EsperKit_Example" */;
+			buildPhases = (
+				83DDC1351C8505200F05021ECD1BB400 /* Headers */,
+				636F037992F6301F9DE98648AC971067 /* Sources */,
+				1B7B105FF0A41E99687AAB9C67B1B97D /* Frameworks */,
+				B50C31FDB5C7C2735FFACA416F0CCF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071CC2244CC9C68FB5471B4B17F49C99 /* PBXTargetDependency */,
+			);
+			name = "Pods-EsperKit_Example";
+			productName = "Pods-EsperKit_Example";
+			productReference = D26C4933388B0BCB02B31387D96D12C2 /* Pods_EsperKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE6E95D2463DFFB3C2E89ADB8DDC1D51 /* Pods-EsperKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C7DB36D39BE9F353215432049297D7 /* Build configuration list for PBXNativeTarget "Pods-EsperKit_Tests" */;
+			buildPhases = (
+				A805AAF7F71A671CF729A857AB385AD1 /* Headers */,
+				DF103CDA80F0A71129FA5F33D2E02D74 /* Sources */,
+				0A009EE1DE256614E6E9F8E26020633D /* Frameworks */,
+				E8BF059A6BBF1D3812972C052CB65F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC54EE910F87159BDB1EF28768E1ABA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-EsperKit_Tests";
+			productName = "Pods-EsperKit_Tests";
+			productReference = B936904E1B3C49B4CB3AAB0363F874AC /* Pods_EsperKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94A5341B545C113D7CE66392D3B90894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9410BE709B91E50818B7E3B78FA4556A /* EsperKit */,
+				A8387C6CC73C0F9D7F5F2D37D921C1B5 /* Pods-EsperKit_Example */,
+				AE6E95D2463DFFB3C2E89ADB8DDC1D51 /* Pods-EsperKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851938EDBCB700503BE8F6FFEA2EC468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50C31FDB5C7C2735FFACA416F0CCF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BF059A6BBF1D3812972C052CB65F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636F037992F6301F9DE98648AC971067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73A80092E9C538D0E12A334141E1A8 /* Pods-EsperKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3E74922FBD72993E021C3B2D3A4EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1519E4E02174E5019518040335DB9231 /* EsperKit-dummy.m in Sources */,
+				1F94F210200949474A882E9C0977087F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF103CDA80F0A71129FA5F33D2E02D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213E796309A5BAC0DE61B046328B4A70 /* Pods-EsperKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071CC2244CC9C68FB5471B4B17F49C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EsperKit;
+			target = 9410BE709B91E50818B7E3B78FA4556A /* EsperKit */;
+			targetProxy = A0EE9D676F27E7AF4AA9E9C045EFE00A /* PBXContainerItemProxy */;
+		};
+		FC54EE910F87159BDB1EF28768E1ABA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EsperKit_Example";
+			target = A8387C6CC73C0F9D7F5F2D37D921C1B5 /* Pods-EsperKit_Example */;
+			targetProxy = 37C2736E07C40616FCF48634B865766E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0371E09AD4F50E69106D90081DA3FC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E85E02EBC1245E010E0247768C99A01 /* Pods-EsperKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22470CC848BB65F333A8CF52E79C5EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F996834082A0DEE5ECCC54381F36B3 /* Pods-EsperKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Example/Pods-EsperKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F9C6D4C6FD9FD7C8BAAFB74A386192C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C612DE684E02A70A3D7AE587FFC592CC /* Pods-EsperKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83C8FA68E490F022B71FF47396F67525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0215F77AA1563BADBD635559C2394E5F /* EsperKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EsperKit/EsperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EsperKit/EsperKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EsperKit/EsperKit.modulemap";
+				PRODUCT_MODULE_NAME = EsperKit;
+				PRODUCT_NAME = EsperKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ACDA7B89FF1C5DA92EC41CAC07398B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7717D0151D9782E8854B3A0CDF63DB /* Pods-EsperKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsperKit_Tests/Pods-EsperKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2C4EE5B731974EFC3A68A6718B412C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7259E49E275194CAEE37740CDC9D50FF /* EsperKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EsperKit/EsperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EsperKit/EsperKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EsperKit/EsperKit.modulemap";
+				PRODUCT_MODULE_NAME = EsperKit;
+				PRODUCT_NAME = EsperKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E48112A1BBCB0A2FA00A71C4568413 /* Build configuration list for PBXNativeTarget "Pods-EsperKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0371E09AD4F50E69106D90081DA3FC71 /* Debug */,
+				22470CC848BB65F333A8CF52E79C5EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C7DB36D39BE9F353215432049297D7 /* Build configuration list for PBXNativeTarget "Pods-EsperKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9C6D4C6FD9FD7C8BAAFB74A386192C /* Debug */,
+				8ACDA7B89FF1C5DA92EC41CAC07398B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FC0DA6F4055250E012524D959246A6 /* Build configuration list for PBXNativeTarget "EsperKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C8FA68E490F022B71FF47396F67525 /* Debug */,
+				C2C4EE5B731974EFC3A68A6718B412C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
